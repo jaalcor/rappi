@@ -75,6 +75,32 @@ header {
 
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
+/* About Rappi */
+.About-Rappi{
+    width: 100%;
+} 
+.About-Rappi .ttulo{
+    width: 100%;
+    background-color: var(--color6);
+    padding: 2rem;
+}
+.About-Rappi .titulo h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+.About-Rappi .titulo h3 span{
+    font-weight: 900;
+}
+.About-Rappi .titulo h3 hr{
+    margin: 0 1rem;
+}
+
+.About-Rappi .titulo h2{
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+
