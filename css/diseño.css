@@ -1,0 +1,106 @@
+header {
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    padding: 1rem 0rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    width: 100%;
+    list-style: none;
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.menu li {
+    
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    color: var(color)
+}
+.banner{
+    width: 100% ;
+    height: 50rem;
+    background-image: url(./bloque_1.png);
+    background-position: center;
+
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.contenido_banner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding-top: rem;
+}
+.contenido_banner span, h1, p{
+    color: var(--color4);
+    margin-top: 1.5rem;
+}
+.contenido_banner span{
+    font-size: 2rem;
+}
+.contenido_banner h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+.contenido_banner p{
+    font-size: 1.7rem;
+}
+.boton{
+    text-decoration: none;
+    display: block;
+    width: 21rem;
+    height: 5rem;
+    background: var(--color);
+    color: var(--color4);
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin: auto;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+/* About Rappi */
+.About-Rappi{
+    width: 100%;
+} 
+.About-Rappi .ttulo{
+    width: 100%;
+    background-color: var(--color6);
+    padding: 2rem;
+}
+.About-Rappi .titulo h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+.About-Rappi .titulo h3 span{
+    font-weight: 900;
+}
+.About-Rappi .titulo h3 hr{
+    margin: 0 1rem;
+}
+
+.About-Rappi .titulo h2{
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+
