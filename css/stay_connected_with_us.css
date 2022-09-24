@@ -12,6 +12,31 @@
     height: 45rem;
     margin-top: 5rem;
     background-color: #5758D0;
+    color: var(--color4);
+    padding: 2.5rem;
+}
+.item-2 h3{
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    color: var(--color4);
+}
+.item-2 h3{
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+.item-2 span{
+    display: block;
+    font-size: 8rem;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+.item-2 p{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-top: 3rem;
+}
+.item-2 h4{
+    font-size: 2rem;
 }
 .item-3 {
     width: 100%;
