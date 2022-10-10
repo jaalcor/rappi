@@ -44,9 +44,28 @@
     flex-direction: row;
     
 }
-.trabajamos{
+.trabajamos  {
     width: auto;
     margin-top: 1rem;
     padding: 1rem;
     color: rgb(78, 78, 78);
+}
+.redes {
+    display: flex;
+    flex-direction: row;
+}
+.book{
+    width: auto;
+    margin-top: 1.75rem;
+    padding: 2rem; 
+}
+.tter{
+    width: auto;
+    margin-top: 1.75rem;
+    padding: 2rem; 
+}
+.gram{
+    width: auto;
+    margin-top: 1.75rem;
+    padding: 2rem; 
 }
