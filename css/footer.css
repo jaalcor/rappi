@@ -23,7 +23,7 @@
     margin-top: 1rem;
     padding: 1rem;
 }
-._information{
+._information  {
     width: auto;
     margin-top: 1rem;
     padding: 1rem;
@@ -32,4 +32,18 @@
     width: auto;
     margin-top: 3rem;
     padding: 3rem;
+}
+.social_media{
+    width: 100%;
+    height: 20rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+.trabajamos{
+    width: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: rgb(78, 78, 78);
 }
